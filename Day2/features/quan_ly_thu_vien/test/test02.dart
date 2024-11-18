@@ -26,5 +26,7 @@ void main() {
   docGia2.muonSach(sach3);
   docGia3.muonSach(sach2);
   docGia3.traSach(sach2);
+
+  // Kiểm tra quản lý thư viện
   thuvien.hienThiDanhSach();
 }

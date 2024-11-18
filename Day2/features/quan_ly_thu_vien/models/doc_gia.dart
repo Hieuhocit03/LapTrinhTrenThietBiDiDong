@@ -26,7 +26,7 @@ class DocGia {
     }
   }
 
-  // methods
+  // phương thức mượn sách
   void muonSach(Sach sach) {
     if (!_sachDangMuon.contains(sach)) {
       _sachDangMuon.add(sach);
@@ -36,6 +36,7 @@ class DocGia {
     }
   }
 
+  // phương thức trả sách
   void traSach(Sach sach) {
     if (_sachDangMuon.contains(sach)) {
       _sachDangMuon.remove(sach);
